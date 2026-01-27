@@ -1,9 +1,33 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    int a= 20;
-    int b= 4;
-    printf("%d\n",a/b);
-    return 0;
+    int type, hours;
+    int rate, fee;
 
+    printf("Enter Vehicle Type (1-Bike, 2-Car): ");
+    scanf("%d", &type);
+
+    printf("Enter Hours: ");
+    scanf("%d", &hours);
+
+    switch(type)
+    {
+        case 1: 
+            rate = 10;
+            break;
+
+        case 2: 
+            rate = 20;
+            break;
+
+        default:  
+            rate = 20;
+    }
+
+    fee = rate * hours;
+
+    printf("Parking Fee ₹%d", fee);
+
+    return 0;
 }
