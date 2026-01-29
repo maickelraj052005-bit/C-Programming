@@ -1,42 +1,12 @@
-#include <stdio.h>
-
-int main()
-{
-    int cat, age;
-    int premium;
-
-    printf("Enter Category (1-Two, 2-Four): ");
-    scanf("%d", &cat);
-
-    printf("Enter Vehicle Age: ");
-    scanf("%d", &age);
-
-    switch(cat)
-    {
-        case 1:  
-
-            if(age <= 5)
-                premium = 1500;
-            else
-                premium = 2500;
-
-            break;
-
-        case 2:  
-
-            if(age <= 5)
-                premium = 4000;
-            else
-                premium = 6000;
-
-            break;
-
-        default:
-            printf("Invalid Category");
-            return 0;
+#include<stdio.h>
+int main(){
+    int n,i;
+    int num=0;
+    scanf("%d",&n);
+    for(i=n%10;n!=0;n=n/10){
+        if(n%2==0){
+        num=num+1;
+        }
     }
-
-    printf("₹%d", premium);
-
-    return 0;
+    printf("%d",num);
 }
