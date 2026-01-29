@@ -1,33 +1,22 @@
-#include <stdio.h>
-
-int main()
-{
-    int type, hours;
-    int rate, fee;
-
-    printf("Enter Vehicle Type (1-Bike, 2-Car): ");
-    scanf("%d", &type);
-
-    printf("Enter Hours: ");
-    scanf("%d", &hours);
-
-    switch(type)
-    {
-        case 1: 
-            rate = 10;
-            break;
-
-        case 2: 
-            rate = 20;
-            break;
-
-        default:  
-            rate = 20;
+#include<stdio.h>
+int main(){
+    int n,digit,fact;
+    scanf("%d",&n);
+    int temp=n;
+    int sum=0;
+    
+    for(;n>0;n=n/10){
+        digit=n%10;
+        
+        fact=1;
+        for(int i=1;i<=digit;i++){
+            fact=fact*i;
+        }
+        sum=sum+fact;
     }
-
-    fee = rate * hours;
-
-    printf("Parking Fee ₹%d", fee);
-
-    return 0;
-}
+    if(sum==temp){
+        printf("Yes");
+    }
+    else{
+        printf("No");
+    }
