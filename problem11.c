@@ -7,7 +7,7 @@ int main()
 
     for (;a!=0;a=a/10)
     {
-        sum=sum^(a%10);
+        sum=sum+(a%10);
     }
     printf("%d",sum);
     return 0;
