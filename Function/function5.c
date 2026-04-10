@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int digits (int a)
+int digits (int a) 
 {
     
     int sum=0;
