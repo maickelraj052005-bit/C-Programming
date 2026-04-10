@@ -8,7 +8,7 @@ int perfect(int n)
         if (n%i==0)
         {
             sum+=i;
-        }
+        } 
         if (sum==n)
         {
             return 1;
