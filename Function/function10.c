@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int random(int n)
+int random(int n) 
 {
     int sum = 0;
 
