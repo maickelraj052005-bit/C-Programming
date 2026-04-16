@@ -12,7 +12,7 @@ int interest()
  
 }
 
-void main()
+void main() 
 {
     printf("%d",interest());
 }
