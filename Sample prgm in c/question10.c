@@ -5,4 +5,4 @@ int main()
     int b=15;
     printf("%d %d",a,b);
     return 0;
-}
+} 
