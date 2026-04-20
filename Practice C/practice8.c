@@ -2,7 +2,7 @@
 int main()
 {
 
-    printf("With Temp ");
+    printf("With Temp "); 
     int a=10;
     int b=20;
     int temp=0;
