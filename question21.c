@@ -6,7 +6,7 @@ int main() {
     int decimal = 0, i = 0, rem;
     scanf("%lld", &n);
 
-    for (; n != 0; n /= 10) {
+    for (; n != 0; n /= 10) { 
         rem = n % 10;
         decimal += rem * pow(2, i);
         i++;
