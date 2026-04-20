@@ -3,7 +3,7 @@ int main() {
     int acc;
     scanf("%d",&acc);
     int bal;
-    scanf("%d",&bal);
+    scanf("%d",&bal); 
     int wid;
     scanf("%d",&wid);
     switch (acc) {
