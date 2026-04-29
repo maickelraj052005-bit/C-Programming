@@ -8,7 +8,7 @@ int main()
     int b; 
     printf("Enter the Number 2: ");  
     scanf("%d",&b);
-    
+     
     
     printf("======================= \n");
     printf("Select The opertor\n");
