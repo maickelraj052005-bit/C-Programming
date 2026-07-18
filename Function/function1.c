@@ -8,7 +8,7 @@ int interest()
     int c = (p*r*t)/100; 
      
    
-    return c; 
+    return c;  
  
 }
 
